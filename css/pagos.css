@@ -1,0 +1,90 @@
+
+
+
+    .fondo-pago {
+    display: flex;
+    height: 100vh;
+    }
+
+    .lado-imagen {
+    flex: 1;
+    background-image: url('/imagenes/product2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    }
+
+
+    .lado-formulario {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupa solo el alto de la pantalla */
+  padding: 0.75rem;
+}
+
+
+
+
+
+    .container {
+    max-width: 500px;                
+    background-color: #f8f9fa;      
+                    
+    border-radius: 15px;             
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    
+    }
+
+    
+
+
+    label {
+                    
+    font-weight: 600;               
+    margin-bottom: 0.5rem;          
+    color: #333;                 
+    }
+
+    /* Estilo de los inputs */
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+    width: 100%;                   
+    padding: 0.75rem;               
+    border: 1px solid #ccc;         
+    border-radius: 8px;             
+    font-size: 1rem;                
+    transition: border-color 0.3s;  
+    }
+
+
+    input:focus {
+    border-color: #007bff;          
+    outline: none;                 
+    }
+
+    /* Estilo del checkbox */
+    input[type="checkbox"] {
+    transform: scale(1.2);        
+    margin-right: 0.5rem;           
+    }
+
+
+    button.btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    background-color:darkgrey;     
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+
+
+    button.btn:hover {
+    background-color: #0056b3; }
+
+
